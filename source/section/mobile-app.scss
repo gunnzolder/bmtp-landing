@@ -1,0 +1,52 @@
+@import "../_base/imports/bootstrap";
+@import "../_base/variables/variables";
+
+$block-name: "mobile-app";
+
+.#{$block-name} {
+  background-image: url(resources/fairy-bg@2x.png);
+  background-size: cover;
+  &.bmtp-section {
+    min-height:0;
+  }
+
+  &__container {
+    @include make-container();
+    display: flex;
+    padding: $grid-gutter-width*2 0 0;
+    max-width: 1200px;
+  }
+
+  &__knight,
+  &__tower {
+    display: none;
+  }
+
+  &__hand {
+    align-self: flex-end;
+    //position: absolute;
+    //bottom: 0;
+  }
+
+
+}
+
+
+@media (min-width: breakpoint-min(xl)) {
+  .#{$block-name} {
+    &.bmtp-section {
+      min-height:675px;
+    }
+    &__title {
+      position: relative;
+      top: -100px;
+    }
+    &__tower, &__knight {
+      display: inherit;
+    }
+
+    &__hand {
+      left: 50%;
+    }
+  }
+  }

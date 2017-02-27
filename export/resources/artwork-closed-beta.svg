@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="221px" height="221px" viewBox="0 0 221 221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>artwork-closed-beta</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="110.5" cy="110.5" r="110.5"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0,0 L20,0 L20,20 L0,20 L0,0 Z M5,5 L5,15 L15,15 L15,5 L5,5 Z" id="path-5"></path>
+        <path d="M0,0 L20,0 L20,20 L0,20 L0,0 Z M16.3,10.1 L5.3,3.5 L5.3,16.7 L16.3,10.1 Z" id="path-7"></path>
+        <path d="M0,0 L20,0 L20,20 L0,20 L0,0 Z M10,15.6 C12.9823376,15.6 15.4,13.1823376 15.4,10.2 C15.4,7.21766235 12.9823376,4.8 10,4.8 C7.01766235,4.8 4.6,7.21766235 4.6,10.2 C4.6,13.1823376 7.01766235,15.6 10,15.6 Z" id="path-9"></path>
+        <path d="M0,0 L20,0 L20,20 L0,20 L0,0 Z M6.4,8.8 C7.7254834,8.8 8.8,7.7254834 8.8,6.4 C8.8,5.0745166 7.7254834,4 6.4,4 C5.0745166,4 4,5.0745166 4,6.4 C4,7.7254834 5.0745166,8.8 6.4,8.8 Z M6.4,16 C7.7254834,16 8.8,14.9254834 8.8,13.6 C8.8,12.2745166 7.7254834,11.2 6.4,11.2 C5.0745166,11.2 4,12.2745166 4,13.6 C4,14.9254834 5.0745166,16 6.4,16 Z M13.6,8.8 C14.9254834,8.8 16,7.7254834 16,6.4 C16,5.0745166 14.9254834,4 13.6,4 C12.2745166,4 11.2,5.0745166 11.2,6.4 C11.2,7.7254834 12.2745166,8.8 13.6,8.8 Z M13.6,16 C14.9254834,16 16,14.9254834 16,13.6 C16,12.2745166 14.9254834,11.2 13.6,11.2 C12.2745166,11.2 11.2,12.2745166 11.2,13.6 C11.2,14.9254834 12.2745166,16 13.6,16 Z" id="path-11"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00---Landing" transform="translate(-356.000000, -5626.000000)">
+            <g id="Contact" transform="translate(0.000000, 5502.000000)">
+                <g id="artwork-closed-beta" transform="translate(356.000000, 124.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Oval" fill-rule="nonzero">
+                        <use fill="#6B9AB3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-2" mask="url(#mask-2)">
+                        <g transform="translate(-14.000000, 27.000000)">
+                            <rect id="Rectangle-3" fill-opacity="0.4" fill="#4A4A4A" x="0" y="135.384615" width="273" height="91.2820513"></rect>
+                            <rect id="Rectangle-2" fill="#2B4D6B" transform="translate(80.309211, 75.897436) scale(-1, 1) translate(-80.309211, -75.897436) " x="78.5131579" y="16.4102564" width="3.59210526" height="118.974359"></rect>
+                            <rect id="Rectangle-2" fill="#EEEFF3" x="82.1052632" y="16.4102564" width="90.3157895" height="118.974359"></rect>
+                            <g id="Group-12" filter="url(#filter-4)" stroke-width="1" fill="none" transform="translate(54.000000, 50.000000)">
+                                <rect id="Rectangle-8" fill="#FFFFFF" x="0" y="0" width="53" height="54" rx="2"></rect>
+                                <g id="logos/BMTP" transform="translate(7.066667, 7.043478)">
+                                    <g id="Group-6">
+                                        <g id="body">
+                                            <mask id="mask-6" fill="white">
+                                                <use xlink:href="#path-5"></use>
+                                            </mask>
+                                            <g id="Mask"></g>
+                                            <g id="Mixin/Colors/Blue" mask="url(#mask-6)" fill="#0063B9">
+                                                <rect id="Rectangle-2" x="0" y="0" width="20" height="20"></rect>
+                                            </g>
+                                        </g>
+                                        <g id="play" transform="translate(20.000000, 20.000000)">
+                                            <mask id="mask-8" fill="white">
+                                                <use xlink:href="#path-7"></use>
+                                            </mask>
+                                            <g id="Mask"></g>
+                                            <g id="Mixin/Colors/Yellow" mask="url(#mask-8)" fill="#F6A623">
+                                                <rect id="Rectangle-2" x="0" y="0" width="20" height="20"></rect>
+                                            </g>
+                                        </g>
+                                        <g id="mind" transform="translate(20.000000, 0.000000)">
+                                            <mask id="mask-10" fill="white">
+                                                <use xlink:href="#path-9"></use>
+                                            </mask>
+                                            <g id="Mask"></g>
+                                            <g id="Mixin/Colors/Red" mask="url(#mask-10)" fill="#D0011B">
+                                                <rect id="Rectangle-2" x="0" y="0" width="20" height="20"></rect>
+                                            </g>
+                                        </g>
+                                        <g id="team" transform="translate(0.000000, 20.000000)">
+                                            <mask id="mask-12" fill="white">
+                                                <use xlink:href="#path-11"></use>
+                                            </mask>
+                                            <g id="Mask"></g>
+                                            <g id="Mixin/Colors/Green" mask="url(#mask-12)">
+                                                <rect id="Rectangle-2" fill="#62B307" x="0" y="0" width="20" height="20"></rect>
+                                                <rect id="Rectangle-2" fill="#7ACC1C" x="0" y="0" width="20" height="20"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <path d="M99.5263158,1.99811572 C99.5263158,0.894586879 100.407667,0.189610513 101.483787,0.421123037 L171.463581,15.4763129 C172.544663,15.7088927 173.421053,16.7905193 173.421053,17.8963738 L173.421053,133.385677 C173.421053,134.48966 172.55271,135.598545 171.48253,135.862201 L101.464838,153.112158 C100.394222,153.375921 99.5263158,152.687769 99.5263158,151.591628 L99.5263158,1.99811572 Z" id="Rectangle" fill="#C0DBF3"></path>
+                            <polygon id="Path-2" fill-opacity="0.300000012" fill="#000000" points="98.7828947 153.589744 142.657895 239.74359 265.559211 172.051282 172.421053 135.384615"></polygon>
+                            <ellipse id="Oval-2" fill="#576F7D" cx="107.25" cy="76.1538462" rx="4.61842105" ry="5.8974359"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

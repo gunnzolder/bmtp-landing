@@ -1,0 +1,53 @@
+@import "../_base/imports/bootstrap";
+@import "../_base/variables/variables";
+
+/*
+
+Mixins usage:
+
+@mixin button-variant($color, $background, $border)
+@mixin button-outline-variant($color)
+@mixin button-size($padding-y, $padding-x, $font-size, $border-radius)
+
+*/
+
+.rcn-button {
+  @include button-outline-variant(white);
+  border-width: .2rem;
+  border-style: solid;
+  text-transform: uppercase;
+
+  &:link, &:visited {
+    display: inline-block;
+    text-decoration: none;
+    margin: 1rem 0;
+  }
+
+  &:hover {
+    color:black;
+    font-weight: bold;
+  }
+
+  &--large {
+    @include button-size(1rem, 2rem, 1rem, .2rem);
+  }
+
+  &--black {
+    @include button-outline-variant(black);
+    font-weight: bold;
+    &:hover {
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  &--green {
+    @include button-outline-variant($color-green);
+    font-weight: bold;
+    &:hover {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+

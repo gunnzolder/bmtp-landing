@@ -1,0 +1,19 @@
+@import "../_base/imports/bootstrap";
+@import "../_base/variables/variables";
+
+$block-name: "bmtp-footer";
+
+.#{$block-name} {
+  &.bmtp-section {
+    min-height: 200px;
+  }
+
+  &__container {
+    padding: 30px;
+  }
+&__link {
+  text-decoration: none;
+  color: $color-gray-light;
+}
+}
+

@@ -1,0 +1,69 @@
+@import "../_base/imports/bootstrap";
+@import "../_base/variables/variables";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/bounce.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/bounceIn.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/shake.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/swing.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/tada.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/rollIn.scss";
+
+$block-name: "sign-up";
+
+.#{$block-name} {
+
+
+  &.bmtp-section {
+    min-height: 800px;
+  }
+
+  &__container {
+    @include make-container();
+    display: flex;
+    padding: $grid-gutter-width*2 0 $grid-gutter-width*2;
+    max-width: 1200px;
+  }
+  &__beta-arrow {
+    opacity:0;
+    position: absolute;
+    bottom: 220px;
+    //@include animate('rollIn', 1s);
+    //animation-delay: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .bmtp-section__description, .bmtp-section__artwork {
+       &:hover {
+         .#{$block-name}__beta-arrow,
+         ~ .bmtp-section__description .#{$block-name}__beta-arrow {
+           opacity:1;
+           @include animate('rollIn', 1s);
+           animation-iteration-count: infinite;
+
+         }
+       }
+     }
+
+
+
+  &__cta {
+    @include button-variant($color-bmtp-blue, $color-white, $color-white);
+    // @mixin button-size($padding-y, $padding-x, $font-size, $border-radius)
+    @include button-size($grid-gutter-width, $grid-gutter-width, 20px, 75px);
+    text-decoration: none;
+    position: absolute;
+    bottom: 120px;
+    width: 260px;
+    left: calc(50% - 130px);
+  }
+
+
+}
+
+
+@media (min-width: breakpoint-min(xl)) {
+  .#{$block-name} {
+
+  }
+}
+

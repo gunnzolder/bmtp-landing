@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L50,0 L50,50 L0,50 L0,0 Z M12.5,12.5 L12.5,37.5 L37.5,37.5 L37.5,12.5 L12.5,12.5 Z" id="path-1"></path>
+        <path d="M0,0 L50,0 L50,50 L0,50 L0,0 Z M40.75,25.25 L13.25,8.75 L13.25,41.75 L40.75,25.25 Z" id="path-3"></path>
+        <path d="M0,0 L50,0 L50,50 L0,50 L0,0 Z M25,39 C32.4558441,39 38.5,32.9558441 38.5,25.5 C38.5,18.0441559 32.4558441,12 25,12 C17.5441559,12 11.5,18.0441559 11.5,25.5 C11.5,32.9558441 17.5441559,39 25,39 Z" id="path-5"></path>
+        <path d="M0,0 L50,0 L50,50 L0,50 L0,0 Z M16,22 C19.3137085,22 22,19.3137085 22,16 C22,12.6862915 19.3137085,10 16,10 C12.6862915,10 10,12.6862915 10,16 C10,19.3137085 12.6862915,22 16,22 Z M16,40 C19.3137085,40 22,37.3137085 22,34 C22,30.6862915 19.3137085,28 16,28 C12.6862915,28 10,30.6862915 10,34 C10,37.3137085 12.6862915,40 16,40 Z M34,22 C37.3137085,22 40,19.3137085 40,16 C40,12.6862915 37.3137085,10 34,10 C30.6862915,10 28,12.6862915 28,16 C28,19.3137085 30.6862915,22 34,22 Z M34,40 C37.3137085,40 40,37.3137085 40,34 C40,30.6862915 37.3137085,28 34,28 C30.6862915,28 28,30.6862915 28,34 C28,37.3137085 30.6862915,40 34,40 Z" id="path-7"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00---Landing" transform="translate(-673.000000, -923.000000)">
+            <g id="Subhero" transform="translate(0.000000, 763.000000)">
+                <g id="0-bmtp-artwork" transform="translate(165.000000, 93.000000)">
+                    <g id="logos/BMTP" transform="translate(508.000000, 67.000000)">
+                        <g id="Group-6">
+                            <g id="body">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <g id="Mixin/Colors/Blue" mask="url(#mask-2)" fill="#0063B9">
+                                    <rect id="Rectangle-2" x="0" y="0" width="50" height="50"></rect>
+                                </g>
+                            </g>
+                            <g id="play" transform="translate(50.000000, 50.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <g id="Mixin/Colors/Yellow" mask="url(#mask-4)" fill="#F6A623">
+                                    <rect id="Rectangle-2" x="0" y="0" width="50" height="50"></rect>
+                                </g>
+                            </g>
+                            <g id="mind" transform="translate(50.000000, 0.000000)">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <g id="Mixin/Colors/Red" mask="url(#mask-6)" fill="#D0011B">
+                                    <rect id="Rectangle-2" x="0" y="0" width="50" height="50"></rect>
+                                </g>
+                            </g>
+                            <g id="team" transform="translate(0.000000, 50.000000)">
+                                <mask id="mask-8" fill="white">
+                                    <use xlink:href="#path-7"></use>
+                                </mask>
+                                <g id="Mask"></g>
+                                <g id="Mixin/Colors/Green" mask="url(#mask-8)">
+                                    <rect id="Rectangle-2" fill="#62B307" x="0" y="0" width="50" height="50"></rect>
+                                    <rect id="Rectangle-2" fill="#7ACC1C" x="0" y="0" width="50" height="50"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

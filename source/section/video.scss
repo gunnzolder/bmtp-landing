@@ -1,0 +1,36 @@
+@import "../_base/imports/bootstrap";
+@import "../_base/variables/variables";
+
+$block-name: "bmtp-video";
+
+.#{$block-name} {
+  min-height:0;
+  &__container {
+    @include make-container();
+    padding: $grid-gutter-width 0 $grid-gutter-width;
+
+  }
+  &__row {
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 36px;
+    margin: 0 0 1rem;
+  }
+  &__embed {
+    &__iframe {
+      width: 320px;
+    }
+  }
+}
+
+@media (min-width: breakpoint-min(md)) {
+  .#{$block-name} {
+    &__embed {
+      &__iframe {
+        width: breakpoint-min(md);
+        height: breakpoint-min(md)*.5625;
+      }
+    }
+  }
+}

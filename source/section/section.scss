@@ -1,0 +1,157 @@
+@import "../_base/imports/bootstrap";
+@import "../_base/variables/variables";
+
+$block-name: "bmtp-section";
+
+.#{$block-name} {
+  transition: all .5s ease;
+  font-family: $base-font;
+  text-align: center;
+  min-height: 675px;
+  display: flex;
+  &__container {
+    @include make-container();
+    display: flex;
+    padding: $grid-gutter-width*2 0 $grid-gutter-width;
+    max-width: 1200px;
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__header {
+    font-size: 36px;
+    margin: 40px;
+    &__img {
+      margin: 0 20px;
+    }
+    strong {
+      font-weight: 100;
+    }
+  }
+  &__description {
+    padding: $grid-gutter-width;
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 0 $grid-gutter-width;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+    ul {
+      padding-left: 2rem;
+      text-align: left;
+      font-weight: 200;
+      list-style-type: circle;
+    }
+    li {
+      margin-bottom: .4rem;
+    }
+    p {
+      margin: $grid-gutter-width 0;
+      font-size: 18px;
+      font-weight: 200;
+      line-height: 24px;
+    }
+  }
+  &__artwork {
+    &__img {
+      display: block;
+      margin: 0 auto;
+      max-width: 60%;
+    }
+  }
+  &--image-left {}
+  &--image-right {}
+
+}
+
+
+@media (min-width: breakpoint-min(md)) {
+  .#{$block-name} {
+    &__row {
+      @include make-row();
+      flex-direction: row;
+      align-items: center;
+    }
+    &__artwork {
+      @include make-col(6);
+      margin: 0 auto;
+    }
+    &__description {
+      @include make-col(6);
+      text-align: left;
+    }
+  }
+
+  &.#{$block-name}--reverse {
+
+    .#{$block-name}{
+      &__row {
+        flex-direction: row-reverse;
+      }
+    }
+
+  }
+}
+
+@media (min-width: breakpoint-min(xl)) {
+  .#{$block-name} {
+
+    &__description {
+      padding: $grid-gutter-width;
+      h1 {
+        font-size: 48px;
+      }
+      h2 {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+      p {}
+    }
+  }
+}
+
+
+/* THEMING */
+
+
+.#{$block-name} {
+
+  &.#{$block-name}--blue {
+    background-color: $color-bmtp-blue;
+    color: $color-white;
+  }
+
+  &.#{$block-name}--red {
+    background-color: $color-bmtp-red;
+    color: $color-white;
+  }
+
+  &.#{$block-name}--green {
+    background-color: $color-bmtp-green;
+    color: $color-white;
+  }
+
+  &.#{$block-name}--yellow {
+    background-color: $color-bmtp-yellow;
+    //color: $color-white;
+  }
+
+  &.#{$block-name}--gray {
+    background-color: $color-gray-light;
+  }
+
+  &.#{$block-name}--dark-gray {
+    background-color: $color-gray-dark;
+  }
+
+}
+

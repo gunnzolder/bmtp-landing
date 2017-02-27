@@ -1,0 +1,73 @@
+=== FRONT =============================================
+
+Endelig, - den nye måde at lære på.
+
+BMTP
+Augmented reality læringsplatform
+
+BMTP (Body, Mind, Team, Play)  er et motiverende pædagogisk augmented reality spil.
+BMTP er funderet i samarbejde, og vil både berige børn og unges udendørs aktiviteter og udfordre intellektuelt. Spillet kombinerer din placering på kortet (playground) og interagerer med de objekter, der er placeret på det, gennem det indbyggede kamera.
+
+BODY
+
+Krop og bevægelse understøtter elevens trivsel og læring. Et større fokus på at fysisk aktivitet integreres som en del af undervisningen vil fremme læringsprocessen.
+
+MIND
+
+Vilje, motivation og lyst til at lære skabes ved at vække nysgerrigheden. Vores opmærksomhed og nærvær afgør, hvad der i undervisningssituationer omsættes til læring
+
+TEAM
+
+Evnen til at samarbejde, at få øje på egne og andres styrker og ressourcer skaber bedre resultater. Jo bedre vi agerer som team, jo mere lærer vi som individ og som fællesskab
+
+PLAY
+
+Leg er umiddelbar, spontan og frivillig. Til forskel fra andre aktiviteter kan legen ikke bestemmes og reguleres ude fra. Det er den legende, der råder over legen, dens indhold og form.
+
+
+=== BACK =============================================
+
+Eleven
+<ul>
+<li>Banebrydende ny og spændende teknologi</li>
+<li>Motivation og fysisk aktivitet i undervisningen</li>
+<li>Kombination af spil og traditionelle skolefag</li>
+<li>Udfordrende og cool spilunivers</li>
+</ul>
+BMTP giver motiverede, aktive, ivrige, glade børn, der lærer ved at bruge hele kroppen.
+BMTP tilbyder eleverne et læringsfællesskab, hvor alle er sammen om et fælles mål.
+
+------------------------------------------------------
+
+Skolen
+
+- Fælles overskuelig platform for undervisningsmaterialer
+- Naturlig og meningsfuld implementering af IT i undervisningen
+- Bevægelse og boglige fag i direkte forbindelse
+- Tilgodeser folkeskolelovens § 15. 
+Undervisningstiden skal tilrettelægges, så eleverne får motion og bevægelse i gennemsnitligt 45 minutter om dagen.
+
+MED BMTP SIKRER MAN SOM SKOLE, AT MOTIVATION, BEVÆGELSE OG SAMARBEJDE GÅR HÅND I HÅND MED LÆRING PÅ ET HØJT FAGLIGT NIVEAU PÅ EN MODERNE OG UNDERHOLDENDE MÅDE.
+
+------------------------------------------------------
+
+Underviseren
+
+- Materialeplatform som naturligt motiverer eleverne
+- Målbare og afgrænsede emneområder
+- Kombination af læring, leg og bevægelse
+- Enkelt og intuitivt at planlægge og organisere
+
+BMTP er skabt af lærere og udnytter motivationen fra den digitale spilverden, fysisk udfoldelse og samarbejde til at skabe læring.
+
+BMTP spilles i et fag og et tema, der er fastsat af læreren.
+
+------------------------------------------------------
+
+Web App
+
+- Socialt netværk
+- Opret skolens baner (Playgrounds)
+- Design dit eget spil og reserver en bane
+- Opret egen Quiz eller brug biblioteket
+- Rate og kommenter spil i biblioteket

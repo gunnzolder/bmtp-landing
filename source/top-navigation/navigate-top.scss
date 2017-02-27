@@ -1,0 +1,44 @@
+@import "../_base/imports/bootstrap";
+@import "../_base/variables/variables";
+
+@import "../../node_modules/font-awesome/scss/variables";
+@import "../../node_modules/font-awesome/scss/mixins";
+
+
+$block-name: "navigate-top";
+
+$size: 2.4rem;
+
+.#{$block-name} {
+  display: none;
+}
+
+@media (min-width: breakpoint-min(md)) {
+  .#{$block-name} {
+    width: $size;
+    height: $size;
+    line-height: $size;
+    font-size: $size/2;
+    //border: .1rem solid $color-violet;
+    box-shadow: 0 0 .3rem rgba(0,0,0,0.5);
+    border-radius: 10%;
+    text-align: center;
+    position: fixed;
+    right: $size/2;
+    bottom: $size/2;
+    background: white;
+    &:link, &:visited {
+      text-decoration: none;
+      color: $color-violet-dark;
+      opacity: .8;
+      @include fa-icon();
+      display: none;
+      z-index: 999;
+      &:after {
+        content: $fa-var-angle-up;
+        line-height: $size;
+        font-size: $size*.7;
+      }
+    }
+  }
+}

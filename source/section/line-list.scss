@@ -1,0 +1,28 @@
+@import "../_base/imports/bootstrap";
+@import "../_base/variables/variables";
+
+$block-name: "bmtp-line-list";
+
+.#{$block-name} {
+  color: #333;
+  justify-content: center;
+  position: relative;
+  min-height: 0;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+}
+
+/*
+  HACKS
+*/
+
+.#{$block-name} {
+  &.bmtp-section {
+    min-height: 0;
+  }
+}

@@ -1,0 +1,84 @@
+@import "../_base/imports/bootstrap";
+@import "../_base/variables/variables";
+
+$block-name: "bmtp-subhero";
+
+.#{$block-name} {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    background: url(resources/logo.svg) no-repeat center;
+    height: 250px;
+    justify-content: space-between;
+  }
+  &__item {
+    margin: $grid-gutter-width;
+    padding: 20px;
+    border-top: 3px solid $color-white;
+    background-position: center $grid-gutter-width;
+    background-repeat: no-repeat;
+
+    h1 {
+      margin: $grid-gutter-width*3 $grid-gutter-width*3 $grid-gutter-width;
+    }
+    &__img {
+      float: left;
+    }
+    &--body {
+      border-top-color: $color-bmtp-blue;
+      background-image: url(resources/logo-body.svg);
+    }
+    &--mind {
+      border-top-color: $color-bmtp-red;
+      background-image: url(resources/logo-mind.svg);
+    }
+    &--team {
+      border-top-color: $color-bmtp-green;
+      background-image: url(resources/logo-team.svg);
+    }
+    &--play {
+      border-top-color: $color-bmtp-yellow;
+      background-image: url(resources/logo-play.svg);
+    }
+  }
+  }
+
+@media (min-width: breakpoint-min(md)) {
+  .#{$block-name} {
+    &__item {
+      background-position: $grid-gutter-width $grid-gutter-width;
+      h1 {
+        margin-top: $grid-gutter-width/3;
+      }
+    }
+    &__items {
+      display: flex;
+      text-align: left;
+      flex-flow: row wrap;
+    }
+  }
+}
+
+
+@media (min-width: breakpoint-min(xl)) {
+  .#{$block-name} {
+
+
+    &__title {
+      display: flex;
+      flex-direction: row;
+      height:200px;
+      align-items: center;
+      justify-content: space-between;
+      width: 70%;
+      align-self: center;
+    }
+    &__items {
+      flex-flow: row nowrap;
+    }
+  }
+}
