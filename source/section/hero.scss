@@ -6,9 +6,9 @@ $block-name: "bmtp-hero";
 .#{$block-name} {
     background: $gradient-hero-bg;
     color: $color-white;
-    padding-top: 100px;
+    padding-top: 60px;
     justify-content: center;
-  position: relative;
+    position: relative;
 
 
   &__container {

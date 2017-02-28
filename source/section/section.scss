@@ -9,6 +9,7 @@ $block-name: "bmtp-section";
   text-align: center;
   min-height: 675px;
   display: flex;
+
   &__container {
     @include make-container();
     display: flex;
@@ -29,7 +30,7 @@ $block-name: "bmtp-section";
       margin: 0 20px;
     }
     strong {
-      font-weight: 100;
+      font-weight: 200;
     }
   }
   &__description {
