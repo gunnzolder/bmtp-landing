@@ -12,8 +12,8 @@
 
 <header class="top-navigation">
 
-<div class="top-navigation__container">
-    <div class="top-navigation__row">
+    <div class="top-navigation__container">
+        <div class="top-navigation__row">
 
             <a href="#" class="top-navigation__logo">BMTP</a>
             <input class="top-navigation__mobile-nav__input" id="top-navigation__mobile-nav" type="checkbox">
@@ -29,8 +29,8 @@
                 <li class="top-navigation__menu__item"><a href="#signup" class="top-navigation__menu__link top-navigation__menu__link--highlighted">Lukket beta</a></li>
             </menu>
 
+        </div>
     </div>
-</div>
 
 </header>
 
@@ -51,7 +51,7 @@
         <a class="bmtp-hero__cta" href="#concept">
             Læs mere
         </a>
-</div>
+    </div>
 
 </section>
 
@@ -62,25 +62,25 @@
             <h4>Augmented reality læringsplatform</h4>
         </div>
         <div class="bmtp-subhero__items">
-        <article class="bmtp-subhero__item bmtp-subhero__item--body">
-            <h1>Body</h1>
-            <p>Krop og bevægelse understøtter elevens trivsel og læring. Et større fokus på at fysisk aktivitet integreres som en del af undervisningen vil fremme læringsprocessen.</p>
-        </article>
+            <article class="bmtp-subhero__item bmtp-subhero__item--body">
+                <h1>Body</h1>
+                <p>Krop og bevægelse understøtter elevens trivsel og læring. Et større fokus på at fysisk aktivitet integreres som en del af undervisningen vil fremme læringsprocessen.</p>
+            </article>
 
-        <article class="bmtp-subhero__item bmtp-subhero__item--mind">
-            <h1>Mind</h1>
-            <p>Vilje, motivation og lyst til at lære skabes ved at vække nysgerrigheden. Vores opmærksomhed og nærvær afgør, hvad der i undervisningssituationer omsættes til læring.</p>
-        </article>
+            <article class="bmtp-subhero__item bmtp-subhero__item--mind">
+                <h1>Mind</h1>
+                <p>Vilje, motivation og lyst til at lære skabes ved at vække nysgerrigheden. Vores opmærksomhed og nærvær afgør, hvad der i undervisningssituationer omsættes til læring.</p>
+            </article>
 
-        <article class="bmtp-subhero__item bmtp-subhero__item--team">
-            <h1>Team</h1>
-            <p>Evnen til at samarbejde, at få øje på egne og andres styrker og ressourcer skaber bedre resultater. Jo bedre vi agerer som team, jo mere lærer vi som individ og som fællesskab.</p>
-        </article>
+            <article class="bmtp-subhero__item bmtp-subhero__item--team">
+                <h1>Team</h1>
+                <p>Evnen til at samarbejde, at få øje på egne og andres styrker og ressourcer skaber bedre resultater. Jo bedre vi agerer som team, jo mere lærer vi som individ og som fællesskab.</p>
+            </article>
 
-        <article class="bmtp-subhero__item bmtp-subhero__item--play">
-            <h1>Play</h1>
-            <p>You don’t have to wait for everything to be perfect. Start with the first step and keep moving. Success doesn’t happen over night. Prepare, prepare, and prepare.</p>
-        </article>
+            <article class="bmtp-subhero__item bmtp-subhero__item--play">
+                <h1>Play</h1>
+                <p>You don’t have to wait for everything to be perfect. Start with the first step and keep moving. Success doesn’t happen over night. Prepare, prepare, and prepare.</p>
+            </article>
         </div>
 
     </div>
@@ -175,7 +175,7 @@
     <div class="bmtp-video__container">
         <div class="bmtp-video__row">
             <!--<h1 class="bmtp-video__title">-->
-                <!--Action-->
+            <!--Action-->
             <!--</h1>-->
 
             <div class="bmtp-video__embed">
@@ -241,24 +241,53 @@
                 <img class="sign-up__beta-arrow" src="resources/closed-beta-arrow.svg" alt="">
             </div>
 
-            <a class="sign-up__cta" href="#">Komme om bord</a>
+            <a class="sign-up__cta" target="_blank" href="https://pipedrivewebforms.com/form/9935ab0350189750fab70b061508712f1542513">Komme om bord</a>
 
 
         </div>
     </div>
 </section>
 
-<footer class="bmtp-section bmtp-section--dark-gray bmtp-footer">
-    <div class="bmtp-section__container">
+<section class="bmtp-section bmtp-section--dark-gray bmtp-section--reverse" id="contact">
+    <div class="sign-up__container">
         <div class="bmtp-section__row">
-            <span>  <a class=" bmtp-footer__link" href="mailto:info@bmtp.life">  © BMTP 2017</a></span>
+
+            <div class="bmtp-section__artwork">
+                <img class="bmtp-section__artwork__img" src="resources/artwork-hand-phone-logo.svg" alt="Contact Us">
+            </div>
+
+            <div class="bmtp-section__description">
+                <h1>Kontakt os</h1>
+                <h2>Enhver spørgsmål eller feedback</h2>
+                <p class="sign-up__copy">
+                    <a href="mailto:info@bmtp.life">info@bmtp.life</a><br>
+                    +45 4222 4245
+                </p>
+                <img class="sign-up__beta-arrow" src="resources/closed-beta-arrow.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="bmtp-section bmtp-section--black bmtp-footer">
+    <div class="bmtp-footer__container">
+        <div class="bmtp-footer__row">
+            <span>
+                <a class=" bmtp-footer__link" href="mailto:info@bmtp.life">© BMTP 2017. </a>
+                &nbsp;
+                <span class="bmtp-footer__bottom-line"> Fra Jylland med elskov</span>
+            </span>
             <!--<a href="mailto:info@bmtp.life">info@bmtp.life</a>-->
             <!--<span>+45 4222 4245</span>-->
-
 
         </div></div>
 
 </footer>
+
+<div class="edit-content" contenteditable="false" style="display: none; position: absolute; top: 0; right: 0;">
+    <button class="sign-up__cta">SAVE</button>
+</div>
 
 
 <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>

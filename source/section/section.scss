@@ -153,6 +153,22 @@ $block-name: "bmtp-section";
 
   &.#{$block-name}--dark-gray {
     background-color: $color-gray-dark;
+    color: $color-gray-light;
+
+    a {
+      color: $color-white;
+    }
+  }
+
+  &.#{$block-name}--black {
+    background-color: black;
+    color: $color-gray-light;
+    a {
+      color: $color-gray-light;
+      &:hover {
+        color: $color-white;
+      }
+    }
   }
 
 }

@@ -5,15 +5,28 @@ $block-name: "bmtp-footer";
 
 .#{$block-name} {
   &.bmtp-section {
-    min-height: 200px;
+    min-height: 120px;
   }
 
   &__container {
-    padding: 30px;
+    @include make-container();
+    display: flex;
+    //padding: 30px;
+    padding: 0;
+  }
+  &__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 &__link {
   text-decoration: none;
   color: $color-gray-light;
 }
+
+  &__bottom-line {
+    opacity:.2;
+  }
 }
 

@@ -1,6 +1,14 @@
 @import "../_base/imports/bootstrap";
 @import "../_base/variables/variables";
 
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/bounce.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/bounceIn.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/shake.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/swing.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/tada.scss";
+@import "../../node_modules/animate.scss/vendor/assets/stylesheets/animate/rollIn.scss";
+
 $block-name: "mobile-app";
 
 .#{$block-name} {
@@ -50,6 +58,11 @@ $block-name: "mobile-app";
     }
     &__tower, &__knight {
       display: inherit;
+      position: relative;
+      top: 80px;
+      &:hover {
+        @include animate('tada', 1s);
+      }
     }
 
     &__hand {
