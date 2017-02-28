@@ -12,15 +12,14 @@ $block-name: "sign-up";
 
 .#{$block-name} {
 
-
   &.bmtp-section {
-    min-height: 800px;
+    min-height: 600px;
   }
 
   &__container {
     @include make-container();
     display: flex;
-    padding: $grid-gutter-width*2 0 $grid-gutter-width*2;
+    padding: $grid-gutter-width*2 0 $grid-gutter-width;
     max-width: 1200px;
   }
   &__beta-arrow {
@@ -32,27 +31,13 @@ $block-name: "sign-up";
     animation-iteration-count: infinite;
   }
 
-  .bmtp-section__description, .bmtp-section__artwork {
-       &:hover {
-         .#{$block-name}__beta-arrow,
-         ~ .bmtp-section__description .#{$block-name}__beta-arrow {
-           opacity:1;
-           @include animate('rollIn', 1s);
-           animation-iteration-count: infinite;
-
-         }
-       }
-     }
-
-
-
   &__cta {
     @include button-variant($color-bmtp-blue, $color-white, $color-white);
     // @mixin button-size($padding-y, $padding-x, $font-size, $border-radius)
     @include button-size($grid-gutter-width, $grid-gutter-width, 20px, 75px);
     text-decoration: none;
     position: absolute;
-    bottom: 120px;
+    bottom: 70px;
     width: 260px;
     left: calc(50% - 130px);
   }
@@ -63,6 +48,24 @@ $block-name: "sign-up";
 
 @media (min-width: breakpoint-min(xl)) {
   .#{$block-name} {
+
+    &.bmtp-section {
+      min-height: 800px;
+    }
+
+
+    .bmtp-section__description, .bmtp-section__artwork {
+      &:hover {
+        .#{$block-name}__beta-arrow,
+        ~ .bmtp-section__description .#{$block-name}__beta-arrow {
+          opacity:1;
+          @include animate('rollIn', 1s);
+          animation-iteration-count: infinite;
+
+        }
+      }
+    }
+
 
   }
 }

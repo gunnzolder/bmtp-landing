@@ -7,7 +7,6 @@ $block-name: "bmtp-section";
   transition: all .5s ease;
   font-family: $base-font;
   text-align: center;
-  min-height: 675px;
   display: flex;
 
   &__container {
@@ -24,7 +23,7 @@ $block-name: "bmtp-section";
   }
 
   &__header {
-    font-size: 36px;
+    font-size: 32px;
     margin: 40px;
     &__img {
       margin: 0 20px;
@@ -48,7 +47,7 @@ $block-name: "bmtp-section";
     ul {
       padding-left: 2rem;
       text-align: left;
-      font-weight: 200;
+      font-weight: 300;
       list-style-type: circle;
     }
     li {
@@ -57,7 +56,7 @@ $block-name: "bmtp-section";
     p {
       margin: $grid-gutter-width 0;
       font-size: 18px;
-      font-weight: 200;
+      font-weight: 300;
       line-height: 24px;
     }
   }
@@ -65,7 +64,7 @@ $block-name: "bmtp-section";
     &__img {
       display: block;
       margin: 0 auto;
-      max-width: 60%;
+      max-width: 80%;
     }
   }
   &--image-left {}
@@ -76,6 +75,8 @@ $block-name: "bmtp-section";
 
 @media (min-width: breakpoint-min(md)) {
   .#{$block-name} {
+    min-height: 600px;
+
     &__row {
       @include make-row();
       flex-direction: row;

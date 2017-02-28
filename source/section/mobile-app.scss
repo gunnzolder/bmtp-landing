@@ -22,8 +22,15 @@ $block-name: "mobile-app";
     display: none;
   }
 
+  &__title {
+    max-width: 80%;
+    margin: 0 auto $grid-gutter-width;
+  }
+
   &__hand {
     align-self: flex-end;
+    max-width: 80%;
+    margin: 0 auto;
     //position: absolute;
     //bottom: 0;
   }

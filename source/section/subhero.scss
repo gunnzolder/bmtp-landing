@@ -14,6 +14,9 @@ $block-name: "bmtp-subhero";
     background: url(resources/logo.svg) no-repeat center;
     height: 250px;
     justify-content: space-between;
+    h2 {
+      font-size: 32px;
+    }
   }
   &__item {
     margin: $grid-gutter-width;
@@ -66,7 +69,6 @@ $block-name: "bmtp-subhero";
 
 @media (min-width: breakpoint-min(xl)) {
   .#{$block-name} {
-
 
     &__title {
       display: flex;
