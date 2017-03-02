@@ -58,6 +58,9 @@ $block-name: "bmtp-section";
       font-size: 18px;
       font-weight: 300;
       line-height: 24px;
+      strong {
+        font-weight: 400;
+      }
     }
   }
   &__artwork {
@@ -77,6 +80,7 @@ $block-name: "bmtp-section";
   .#{$block-name} {
     min-height: 600px;
 
+
     &__row {
       @include make-row();
       flex-direction: row;
@@ -88,6 +92,7 @@ $block-name: "bmtp-section";
     }
     &__description {
       @include make-col(6);
+      width: 700px;
       text-align: left;
     }
   }
@@ -110,6 +115,7 @@ $block-name: "bmtp-section";
       padding: $grid-gutter-width;
       h1 {
         font-size: 48px;
+        margin: 0 0 .2rem;
       }
       h2 {
         font-size: 18px;
@@ -117,6 +123,10 @@ $block-name: "bmtp-section";
         font-weight: 400;
       }
       p {}
+    }
+
+    &__header {
+      display: flex;
     }
   }
 }
