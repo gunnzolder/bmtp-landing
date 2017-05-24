@@ -1,10 +1,10 @@
 @font-face {
     font-family: "bmtp-icons";
-    src: url("bmtp-icons/bmtp-icons.eot");
-    src: url("bmtp-icons/fonts/bmtp-icons.eot?#iefix") format("eot"),
-    url("bmtp-icons/fonts/bmtp-icons.woff") format("woff"),
-    url("bmtp-icons/fonts/bmtp-icons.woff2") format("woff2"),
-    url("bmtp-icons/fonts/bmtp-icons.ttf") format("truetype");
+    src: url("bmtp-icons/bmtp-icons.eot?raw=true");
+    src: url("bmtp-icons/fonts/bmtp-icons.eot?raw=true&#iefix") format("eot"),
+    url("bmtp-icons/fonts/bmtp-icons.woff?raw=true") format("woff"),
+    url("bmtp-icons/fonts/bmtp-icons.woff2?raw=true") format("woff2"),
+    url("bmtp-icons/fonts/bmtp-icons.ttf?raw=true") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
