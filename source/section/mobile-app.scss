@@ -35,7 +35,7 @@ $block-name: "mobile-app";
     margin: 0 auto $grid-gutter-width;
   }
 
-  &__hand {
+  &__hand:not(amp-img) {
     align-self: flex-end;
     max-width: 80%;
     margin: 0 auto;

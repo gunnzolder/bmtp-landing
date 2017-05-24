@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Social-Media" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.400000006">
+        <g id="icon-fb" fill="#FFFFFF">
+            <path d="M23,15 L28,15 L27.375,20 L23,20 L23,35 L16.515625,35 L16.515625,20 L13,20 L13,15 L16.515625,15 L16.515625,11.640625 C16.515625,9.45311406 17.0624945,7.79948477 18.15625,6.6796875 C19.2500055,5.55989023 21.0729039,5 23.625,5 L28,5 L28,10 L25.34375,10 C24.3541617,10 23.7161473,10.1562484 23.4296875,10.46875 C23.1432277,10.7812516 23,11.3020797 23,12.03125 L23,15 Z" id="ion-social-facebook---Ionicons"></path>
+        </g>
+    </g>
+</svg>

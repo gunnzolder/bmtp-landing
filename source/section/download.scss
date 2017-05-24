@@ -1,0 +1,112 @@
+@import "../_base/imports/bootstrap";
+@import "../_base/variables/variables";
+
+$block-name: "bmtp-download";
+
+.#{$block-name} {
+
+
+  transition: all .5s ease;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  display: flex;
+  background: linear-gradient(225deg, #3023AE 0%, #53A0FD 47.52%, #B4EC51 100%);
+  color: $white;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  padding: 100px 30px;
+
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 960px;
+  }
+
+  &__section {
+    text-align: center;
+  }
+
+  &__artwork {
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    width: 220px;
+    border-radius: 20px;
+    padding: 60px;
+    &__img  {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  &__header {
+    font-size: 32px;
+    margin: 40px;
+    &__img {
+      margin: 0 20px;
+      display: inline-block;
+    }
+    strong {
+      font-weight: 200;
+    }
+  }
+
+  &__description {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 30px 0;
+    p {}
+    ol {
+      margin: 0;
+      padding: 0;
+      li {
+        margin-left: 30px;
+      }
+    }
+
+  }
+
+  &__cta {
+    display: inline-block;
+    color: #fff;
+    background-color: #f5a623;
+    border-color: #f5a623;
+    padding: 2rem;
+    font-size: 20px;
+    border-radius: 75px;
+    text-decoration: none;
+    width: 260px;
+    &:hover {
+      color: #fff;
+      background-color: #db8c0a;
+      border-color: #d1860a;
+    }
+  }
+
+}
+
+@media (min-width: breakpoint-min(lg)) {
+  .#{$block-name} {
+    padding-top: 60px;
+    &__container {
+      flex-direction: row;
+      align-items: center;
+    }
+    &__artwork {
+      margin: 0 100px;
+    }
+    &__description {
+      font-size: 18px;
+    }
+    }
+}
+
+.main-view__index {
+  height: 100%;
+}

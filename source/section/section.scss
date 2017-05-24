@@ -29,11 +29,15 @@ $block-name: "bmtp-section";
       margin: 0 20px;
     }
     strong {
-      font-weight: 200;
+      font-weight: 300;
     }
   }
   &__description {
     padding: $grid-gutter-width;
+
+    &__icon-link {
+      display: inline-block;
+    }
     h1 {
       font-size: 36px;
       margin: 0;
@@ -64,7 +68,7 @@ $block-name: "bmtp-section";
     }
   }
   &__artwork {
-    &__img {
+    &__img:not(amp-img) {
       display: block;
       margin: 0 auto;
       max-width: 80%;

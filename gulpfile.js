@@ -7,7 +7,8 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     opn = require('opn'),
     connect = require('gulp-connect'),
-    autoprefixer = require('autoprefixer-core');
+    autoprefixer = require('autoprefixer-core'),
+    ampify = require('ampify');
 
 var processors = [
     autoprefixer({browsers: 'last 2 versions'})
@@ -29,10 +30,18 @@ gulp.task('sass', function () {
 
 /* Javascript */
 
+gulp.task('libs', function () {
+    gulp.src([
+        'node_modules/jquery-countdown/dist/jquery.countdown.min.js'
+    ], { base: '.' })
+        .pipe(concat('libs.js'))
+        .pipe(gulp.dest('./export/'));
+});
+
 gulp.task('scripts', function () {
     gulp.src([
-        'source/**/*.js'
-    ], { base: '.' })
+            'source/**/*.js'
+        ], { base: '.' })
         .pipe(concat('scripts.js'))
         .pipe(gulp.dest('./export/'));
 });
@@ -52,10 +61,20 @@ gulp.task('connect', function () {
     });
 });
 
+/* Ampify */
+
+gulp.task('ampify', function () {
+    gulp.src([
+            './export/index.html'
+        ], { base: '.' })
+        .pipe(ampify('index.html'))
+        .pipe(gulp.dest('./export/amp/'));
+});
+
 gulp.task('open', ['connect'], function () {
     opn('http://localhost:63342/bmtp-landing/export/index.html', {app: 'google chrome'});
 });
 
 /* Default */
 
-gulp.task('default', ['sass', 'scripts']);
+gulp.task('default', ['sass','libs', 'scripts']);

@@ -1,3 +1,11 @@
+(function($){
+
+    var date = '2017/06/05';
+
+    $('#clock').countdown(date, function(event) {
+        $(this).html(event.strftime('%D dage %H:%M:%S'));
+    });
+})($);
 (function(){
 
     if(window.location.hash == '#edit-content') {
@@ -16,7 +24,26 @@
         stickyClass         = 'top-navigation--sticky',
         scrollSpyClass      = 'top-navigation__menu__link',
         stickyBreakpoint    = 928,
-        scrollTopButton     = document.querySelector('a.navigate-top');
+        scrollTopButton     = document.querySelector('a.navigate-top'),
+        languageSelectorId  = 'language-selector',
+        defaultLanguage     = 'DK';
+
+    function changeLanguage(id,defaultLanguage) {
+        var languageSelector = document.getElementById(id);
+
+        var currentValue = languageSelector.value;
+
+        languageSelector.onchange = function() {
+
+            if(languageSelector.value != currentValue) {
+                window.location = (languageSelector.value == defaultLanguage) ? 'index.html' : 'index-'+languageSelector.value+'.html';
+            }
+
+            console.log(languageSelector.value);
+        }
+    }
+
+    changeLanguage(languageSelectorId,defaultLanguage);
 
     function stickyScroll(e) {
 
@@ -123,6 +150,8 @@
                 .removeClass(activeClass)
                 .filter("[href=#"+id+"]").addClass(activeClass);
         }
+        // hack to hide language selecttor dropdown
+        document.getElementById('language-selector-checkbox').checked = false;
     });
 
     /* Trigger everything: */

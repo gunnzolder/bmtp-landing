@@ -10,7 +10,6 @@ $block-name: "bmtp-hero";
     justify-content: center;
     position: relative;
 
-
   &__container {
     display: flex;
     flex-direction: column;
@@ -19,7 +18,7 @@ $block-name: "bmtp-hero";
   &__artwork {
     max-width: 70%;
     margin: 0 auto;
-    &__img {
+    &__img:not(amp-img) {
       display: block;
       max-width: 100%;
     }
@@ -35,6 +34,5 @@ $block-name: "bmtp-hero";
     width: 260px;
     left: calc(50% - 130px);
   }
-
 }
 
