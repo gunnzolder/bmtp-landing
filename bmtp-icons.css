@@ -1,10 +1,11 @@
 @font-face {
     font-family: "bmtp-icons";
-    src: url("bmtp-icons/bmtp-icons.eot?raw=true");
-    src: url("bmtp-icons/fonts/bmtp-icons.eot?raw=true&#iefix") format("eot"),
-    url("bmtp-icons/fonts/bmtp-icons.woff?raw=true") format("woff"),
-    url("bmtp-icons/fonts/bmtp-icons.woff2?raw=true") format("woff2"),
-    url("bmtp-icons/fonts/bmtp-icons.ttf?raw=true") format("truetype");
+    src: url("https://raw.githubusercontent.com/gunnzolder/bmtp-landing/gh-pages/bmtp-icons/bmtp-icons.eot?raw=true");
+    src: url("https://raw.githubusercontent.com/gunnzolder/bmtp-landing/gh-pages/bmtp-icons/fonts/bmtp-icons.eot?raw=true&#iefix") format("eot"),
+    url("https://raw.githubusercontent.com/gunnzolder/bmtp-landing/gh-pages/bmtp-icons/fonts/bmtp-icons.woff?raw=true") format("woff"),
+    url("https://raw.githubusercontent.com/gunnzolder/bmtp-landing/gh-pages/bmtp-icons/fonts/bmtp-icons.woff2?raw=true") format("woff2"),
+    url("https://raw.githubusercontent.com/gunnzolder/bmtp-landing/gh-pages/bmtp-icons/fonts/bmtp-icons.ttf?raw=true") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
+
