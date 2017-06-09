@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>contact-support</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00---Landing" transform="translate(-30.000000, -163.000000)" fill="#FFFFFF">
+            <g id="contact-support" transform="translate(30.000000, 163.000000)">
+                <circle id="Oval-3" fill-opacity="0.4" cx="21.5" cy="21.5" r="21.5"></circle>
+                <path d="M22,20.616 L30.016,15.6 L13.984,15.6 L22,20.616 Z M30.016,27.6 L30.016,17.616 L22,22.584 L13.984,17.616 L13.984,27.6 L30.016,27.6 Z M30.016,13.584 C30.5600027,13.584 31.0239981,13.783998 31.408,14.184 C31.7920019,14.584002 31.984,15.0559973 31.984,15.6 L31.984,27.6 C31.984,28.1440027 31.7920019,28.615998 31.408,29.016 C31.0239981,29.416002 30.5600027,29.616 30.016,29.616 L13.984,29.616 C13.4399973,29.616 12.9760019,29.416002 12.592,29.016 C12.2079981,28.615998 12.016,28.1440027 12.016,27.6 L12.016,15.6 C12.016,15.0559973 12.2079981,14.584002 12.592,14.184 C12.9760019,13.783998 13.4399973,13.584 13.984,13.584 L30.016,13.584 Z" id="mail_outline---material" opacity="0.800000012"></path>
+            </g>
+        </g>
+    </g>
+</svg>

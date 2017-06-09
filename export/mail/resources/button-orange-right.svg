@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="75px" viewBox="0 0 35 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>button-orange-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="email-template-extended-(no-photo)" transform="translate(-550.000000, -476.000000)">
+            <rect id="Rectangle" fill="#FFFFFF" x="155" y="182" width="600" height="842"></rect>
+            <g id="partials/buttons/hero/regular" transform="translate(326.000000, 476.000000)" fill="#F69D00">
+                <rect id="Mask" x="0" y="0" width="259" height="75" rx="37.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

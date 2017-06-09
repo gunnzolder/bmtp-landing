@@ -287,7 +287,6 @@ $block-name: "top-navigation";
       }
       &__link {
         transition: all .1s ease;
-        height: $height;
         line-height:($height/2)-2px;
         &:link, &:visited {
           color: $color-white;

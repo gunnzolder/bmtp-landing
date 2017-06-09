@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>userpic-placeholder</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <path d="M16.5173088,85.1342249 C25.3809161,93.1313326 37.121889,98 50,98 C62.5934036,98 74.0993926,93.3442245 82.890625,85.6600156 L82.890625,85.03125 C83.1623784,85.03125 83.242522,85.0106648 83.5010253,85.117675 L83.4826745,85.13424 L61.8065308,74.8788572 C61.2695972,74.6282625 60.8362868,74.272948 60.479887,73.7918082 C60.1329878,73.3234943 59.928734,72.8043493 59.858376,72.2063063 C59.7876114,71.6048067 59.8647571,71.0476431 60.0916781,70.5065236 C60.3190107,69.9644228 60.6481102,69.5340619 61.0943096,69.1908316 C64.0951099,66.8825238 66.2047607,63.6247636 67.4199464,59.4705243 C68.580445,55.5032382 69.1666667,52.2449365 69.1666667,49.6666667 L69.1666667,37.1666667 C69.1666667,35.4359461 68.5246375,33.7024674 67.2937225,31.9791863 C66.1482865,30.375576 64.6850992,28.9123887 62.9106666,27.5886056 C61.1439819,26.2706028 59.1339242,25.1818215 56.8847847,24.3210397 C54.5889885,23.4424017 52.2913539,23 50,23 C47.6561623,23 45.3428917,23.4426629 43.0696732,24.3235351 C40.8466913,25.1849405 38.8376706,26.2871116 37.046875,27.6302083 C35.243382,28.9828281 33.7772812,30.4631629 32.6557601,32.0735521 C31.4586447,33.7924871 30.8333333,35.4920513 30.8333333,37.1666667 L30.8333333,49.6666667 C30.8333333,52.3132584 31.4768015,55.5990533 32.7494495,59.5523854 C34.0693211,63.6524121 36.1640863,66.8729354 39.0369666,69.1712397 C39.5081398,69.5340619 39.8372393,69.9644228 40.0645719,70.5065236 C40.2914929,71.0476431 40.3686386,71.6048067 40.297874,72.2063063 C40.2028869,72.6918555 39.9715196,73.2378825 39.6135518,73.7465735 C39.2863882,74.2114903 38.8753715,74.5554022 38.3576909,74.7969864 L16.5173067,85.134223" id="path-2"></path>
+        <filter x="-6.7%" y="-6.0%" width="115.3%" height="112.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="3" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feOffset dx="3" dy="3" in="shadowSpreadInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="email-template-extended-(no-photo)" transform="translate(-405.000000, -132.000000)">
+            <g id="partials/profile/userpic-placeholder" transform="translate(405.000000, 132.000000)">
+                <g id="partials/">
+                    <g id="Mask">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <circle stroke="#9B9B9B" stroke-width="3" cx="50" cy="50" r="48.5"></circle>
+                    </g>
+                    <g id="Combined-Shape">
+                        <use fill="#EBECF0" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use stroke="#9B9B9B" stroke-width="3" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

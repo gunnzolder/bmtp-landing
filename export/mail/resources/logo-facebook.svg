@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.400000006">
+        <g id="email-template-extended-(no-photo)" transform="translate(-368.000000, -1058.000000)" fill="#000000">
+            <g id="Group-2" transform="translate(261.000000, 1058.000000)">
+                <path d="M125,12 L129.5,12 L128.9375,16.5 L125,16.5 L125,30 L119.164062,30 L119.164062,16.5 L116,16.5 L116,12 L119.164062,12 L119.164062,8.9765625 C119.164062,7.00780266 119.656245,5.51953629 120.640625,4.51171875 C121.625005,3.50390121 123.265614,3 125.5625,3 L129.5,3 L129.5,7.5 L127.109375,7.5 C126.218746,7.5 125.644533,7.64062359 125.386719,7.921875 C125.128905,8.20312641 125,8.67187172 125,9.328125 L125,12 Z" id="ion-social-facebook---Ionicons"></path>
+            </g>
+        </g>
+    </g>
+</svg>

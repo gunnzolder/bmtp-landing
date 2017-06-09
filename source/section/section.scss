@@ -95,8 +95,8 @@ $block-name: "bmtp-section";
       margin: 0 auto;
     }
     &__description {
-      @include make-col(6);
-      width: 700px;
+      @include make-col(5);
+      //width: 700px;
       text-align: left;
     }
   }
@@ -106,6 +106,12 @@ $block-name: "bmtp-section";
     .#{$block-name}{
       &__row {
         flex-direction: row-reverse;
+      }
+      &__artwork {
+        @include make-col(5);
+      }
+      &__description {
+        @include make-col(6);
       }
     }
 
@@ -117,6 +123,8 @@ $block-name: "bmtp-section";
 
     &__description {
       padding: $grid-gutter-width;
+      width: 600px;
+
       h1 {
         font-size: 48px;
         margin: 0 0 .2rem;
@@ -126,7 +134,8 @@ $block-name: "bmtp-section";
         text-transform: uppercase;
         font-weight: 400;
       }
-      p {}
+      p {
+      }
     }
 
     &__header {
