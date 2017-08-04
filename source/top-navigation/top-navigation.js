@@ -95,7 +95,9 @@
         menuItems = topMenu.find(".top-navigation__menu__link"),
     // Anchors corresponding to menu items
         scrollItems = menuItems.map(function(){
-            var item = $($(this).attr("href"));
+            var href = $(this).attr("href");
+            var anchor = (href.indexOf('#') > -1) ?  href : '';
+            var item = $(anchor);
             if (item.length) { return item; }
         });
 

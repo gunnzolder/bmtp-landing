@@ -32,7 +32,7 @@ gulp.task('sass', function () {
 
 gulp.task('libs', function () {
     gulp.src([
-        'node_modules/jquery-countdown/dist/jquery.countdown.min.js'
+        //'node_modules/jquery-countdown/dist/jquery.countdown.min.js'
     ], { base: '.' })
         .pipe(concat('libs.js'))
         .pipe(gulp.dest('./export/'));
