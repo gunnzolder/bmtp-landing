@@ -44,7 +44,7 @@ $block-name: "top-navigation";
     clear: both;
     list-style-type: none;
     font-size: 1.1rem;
-    position: fixed;
+    position: static;
     right: 100%;
     height: 100%;
     @include make-col(12);
@@ -219,7 +219,7 @@ $block-name: "top-navigation";
       margin-left: auto;
       text-align: right;
       font-size: 1rem;
-      position: initial;
+      position: static;
       background-color: transparent;
       @include make-col(8);
       &__mobile-dropdown {

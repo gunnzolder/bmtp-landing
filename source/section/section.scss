@@ -91,12 +91,14 @@ $block-name: "bmtp-section";
       align-items: center;
     }
     &__artwork {
-      @include make-col(6);
+      //@include make-col(6);
+      flex: 0 0 auto;
       margin: 0 auto;
     }
     &__description {
-      @include make-col(5);
+      //@include make-col(5);
       //width: 700px;
+      flex: 0 0 auto;
       text-align: left;
     }
   }
@@ -108,10 +110,10 @@ $block-name: "bmtp-section";
         flex-direction: row-reverse;
       }
       &__artwork {
-        @include make-col(5);
+        flex: 0 0 auto;
       }
       &__description {
-        @include make-col(6);
+        flex: 0 0 auto;
       }
     }
 
