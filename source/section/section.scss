@@ -81,11 +81,12 @@ $block-name: "bmtp-section";
       align-items: center;
     }
     &__artwork {
-      @include make-col(6);
+      flex: 0 0 auto;
       margin: 0 auto;
     }
     &__description {
-      @include make-col(6);
+      flex: 0 0 auto;
+      margin: 0 auto;
       text-align: left;
     }
   }
