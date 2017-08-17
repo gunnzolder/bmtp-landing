@@ -50,7 +50,8 @@ $block-name: "mobile-app";
 @media (min-width: breakpoint-min(xl)) {
   .#{$block-name} {
     &.bmtp-section {
-      min-height:675px;
+      min-height:600px;
+      //min-height:675px;
     }
     &__title {
       position: relative;
