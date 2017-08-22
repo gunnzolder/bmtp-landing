@@ -8,7 +8,7 @@ $block-name: "bmtp-section";
   font-family: $base-font;
   text-align: center;
   display: flex;
-
+  //overflow: hidden;
   &__container {
     @include make-container();
     display: flex;
