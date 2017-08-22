@@ -230,6 +230,8 @@ $block-name: "top-navigation";
       &__dropdown {
         display: block;
         .bmtp-svg-icon {
+          position: relative;
+          top: 3px;
           display: inline-block;
           transform: rotate(-90deg);
           width: 17px;
