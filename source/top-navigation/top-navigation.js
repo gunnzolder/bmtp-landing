@@ -144,5 +144,10 @@
         window.addEventListener('scroll', stickyScroll, false);
     }
 
+    $('.top-navigation__mobile-nav__label').click(function () {
+            $('.top-navigation__menu').slideToggle();
+        }
+    );
+
 
 })(jQuery);
