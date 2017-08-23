@@ -42,6 +42,14 @@ $block-name: "sign-up";
 
 
 }
+@media (max-width: breakpoint-min(md)) {
+  .#{$block-name} {
+    &__cta {
+      position: static;
+      margin: 0 auto;
+    }
+  }
+}
 
 
 @media (min-width: breakpoint-min(xl)) {
