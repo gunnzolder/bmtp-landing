@@ -16,8 +16,7 @@ $block-name: "top-navigation";
   transition: all .5s ease;
   height: $height-mobile;
   z-index: 1;
-  width: 100%;
-  //position: fixed;
+  position: fixed;
   @include make-col(12);
 
   &__container {
@@ -40,7 +39,6 @@ $block-name: "top-navigation";
   }
 
   &__menu {
-    display: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -178,7 +176,7 @@ $block-name: "top-navigation";
           }
         }
         ~ .#{$block-name}__menu {
-          //transition: all .3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+          transition: all .3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
           //position: absolute;
           top: 0;
           right: 0;
@@ -232,8 +230,6 @@ $block-name: "top-navigation";
       &__dropdown {
         display: block;
         .bmtp-svg-icon {
-          position: relative;
-          top: 3px;
           display: inline-block;
           transform: rotate(-90deg);
           width: 17px;
