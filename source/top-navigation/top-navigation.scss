@@ -349,46 +349,6 @@ $block-name: "top-navigation";
 
       }
     }
-
-   /* &.#{$block-name}--sticky {
-      position: fixed;
-      height: $height-sticky;
-      background-color: $color-white;
-      color: $color-gray-dark;
-      .#{$block-name}{
-        &__logo {
-          background-image: url(resources/logo-color.svg);
-        }
-        &__menu {
-          line-height: $height-sticky/3;
-          &__link {
-            &:link, &:visited {
-              color: $key-color;
-            }
-
-            &:after {
-              background: $key-color;
-              bottom: 0;
-            }
-            &--active {
-              //color: white;
-              &:after {
-                width: 80%;
-              }
-            }
-          }
-          &__dropdown__label {
-            color: $key-color;
-            .bmtp-svg-icon path {
-              fill: $key-color;
-
-            }
-          }
-        }
-
-      }
-    }
-    */
   }
 }
 

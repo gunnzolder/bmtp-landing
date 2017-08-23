@@ -26,14 +26,19 @@ $size: 2.4rem;
     position: fixed;
     right: $size/2;
     bottom: $size/2;
-    background: url(resources/fa-angle-up.svg) white no-repeat center;
-    background-size: 20px;
+    background: white;
     &:link, &:visited {
       text-decoration: none;
       color: $color-violet-dark;
       opacity: .8;
+      @include fa-icon();
       display: none;
       z-index: 999;
+      &:after {
+        content: $fa-var-angle-up;
+        line-height: $size;
+        font-size: $size*.7;
+      }
     }
   }
 }
