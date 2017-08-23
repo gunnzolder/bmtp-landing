@@ -16,7 +16,7 @@ $block-name: "top-navigation";
   transition: all .5s ease;
   height: $height-mobile;
   z-index: 1;
-  position: fixed;
+  width: 100%;
   @include make-col(12);
 
   &__container {
@@ -39,6 +39,7 @@ $block-name: "top-navigation";
   }
 
   &__menu {
+    display: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -99,6 +100,44 @@ $block-name: "top-navigation";
     }
 
   }
+
+  &--sticky {
+    position: fixed;
+    height: $height-sticky;
+    background-color: $color-white;
+    color: $color-gray-dark;
+    .#{$block-name}{
+      &__logo {
+        background-image: url(resources/logo-color.svg);
+      }
+      &__menu {
+        line-height: $height-sticky/3;
+        &__link {
+          &:link, &:visited {
+            color: $key-color;
+          }
+          &:after {
+            background: $key-color;
+            bottom: 0;
+          }
+          &--active {
+            //color: white;
+            &:after {
+              width: 80%;
+            }
+          }
+        }
+        &__dropdown__label {
+          color: $key-color;
+          .bmtp-svg-icon path {
+            fill: $key-color;
+
+          }
+        }
+      }
+    }
+  }
+
   &__mobile-nav {
     &__label {
       margin: 1.1rem 1rem 1.1rem auto;
@@ -110,7 +149,6 @@ $block-name: "top-navigation";
       padding: .4rem;
       border-radius: .2rem;
       box-sizing: content-box;
-      //background-color: #3254b8;
     }
     &__navicon {
       &:before,
@@ -176,8 +214,6 @@ $block-name: "top-navigation";
           }
         }
         ~ .#{$block-name}__menu {
-          transition: all .3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
-          //position: absolute;
           top: 0;
           right: 0;
           width: 100%;
@@ -215,6 +251,7 @@ $block-name: "top-navigation";
     &__logo {
     }
     &__menu {
+      display: block;
       max-height: 100rem;
       border-top: none;
       margin-left: auto;
@@ -230,6 +267,8 @@ $block-name: "top-navigation";
       &__dropdown {
         display: block;
         .bmtp-svg-icon {
+          position: relative;
+          top: 3px;
           display: inline-block;
           transform: rotate(-90deg);
           width: 17px;
@@ -260,7 +299,6 @@ $block-name: "top-navigation";
           max-height:0;
           border-radius: 4px;
           overflow: hidden;
-          //transition: max-height .2s ease;
         }
 
         &__item {
@@ -299,7 +337,6 @@ $block-name: "top-navigation";
           content: "";
           height: .2rem;
           width: 0;
-          //background: $color-violet;
           display: block;
           transition: width .2s ease;
           position: absolute;
@@ -308,54 +345,10 @@ $block-name: "top-navigation";
         }
         &:hover, &.#{$block-name}__menu__link--active {
           opacity: 1;
-          //color: $key-color;
-          &:after {
-            //width: 85%;
-          }
         }
 
       }
     }
-    
-    &.#{$block-name}--sticky {
-      position: fixed;
-      height: $height-sticky;
-      background-color: $color-white;
-      color: $color-gray-dark;
-      .#{$block-name}{
-        &__logo {
-          background-image: url(resources/logo-color.svg);
-        }
-        &__menu {
-          line-height: $height-sticky/3;
-          &__link {
-            &:link, &:visited {
-              color: $key-color;
-            }
-
-            &:after {
-              background: $key-color;
-              bottom: 0;
-            }
-            &--active {
-              //color: white;
-              &:after {
-                width: 80%;
-              }
-            }
-          }
-          &__dropdown__label {
-            color: $key-color;
-            .bmtp-svg-icon path {
-              fill: $key-color;
-
-            }
-          }
-        }
-
-      }
-    }
-    
   }
 }
 
