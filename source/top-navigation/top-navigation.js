@@ -144,7 +144,7 @@
         window.addEventListener('scroll', stickyScroll, false);
     }
 
-    $('.top-navigation__mobile-nav__label').click(function () {
+    $('.top-navigation__mobile-nav__label, .top-navigation__menu__item').click(function () {
             $('.top-navigation__menu').slideToggle();
         }
     );
