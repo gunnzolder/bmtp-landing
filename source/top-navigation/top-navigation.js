@@ -6,7 +6,7 @@
         offsetPosition      = 40,
         stickyClass         = 'top-navigation--sticky',
         scrollSpyClass      = 'top-navigation__menu__link',
-        stickyBreakpoint    = 928,
+        stickyBreakpoint    = 0,
         scrollTopButton     = document.querySelector('a.navigate-top'),
         languageSelectorId  = 'language-selector',
         defaultLanguage     = 'DK';

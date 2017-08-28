@@ -29,6 +29,7 @@ $block-name: "bmtp-video";
     &__embed {
       &__iframe {
         width: breakpoint-min(md);
+        max-width: 100%;
         height: breakpoint-min(md)*.5625;
       }
     }
