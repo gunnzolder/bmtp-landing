@@ -36,3 +36,11 @@ $block-name: "bmtp-hero";
   }
 }
 
+@media (max-width: breakpoint-min(sm)) {
+  .#{$block-name} {
+    &__cta {
+      width: 200px;
+      left: calc(50% - 124px);
+    }
+  }
+}
