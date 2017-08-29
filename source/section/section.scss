@@ -27,7 +27,7 @@ $block-name: "bmtp-section";
     font-size: 32px;
     margin: 40px;
     width: 100%;
-    max-width: 100%;
+    max-width: calc(100% - 80px);
     &__img {
       margin: 0 20px;
     }
@@ -192,5 +192,13 @@ $block-name: "bmtp-section";
     }
   }
 
+}
+
+@media (max-width: breakpoint-min(sm)) {
+  .#{$block-name} {
+    &__row {
+      min-height: auto;
+    }
+  }
 }
 
