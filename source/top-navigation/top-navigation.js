@@ -7,26 +7,7 @@
         stickyClass         = 'top-navigation--sticky',
         scrollSpyClass      = 'top-navigation__menu__link',
         stickyBreakpoint    = 0,
-        scrollTopButton     = document.querySelector('a.navigate-top'),
-        languageSelectorId  = 'language-selector',
-        defaultLanguage     = 'DK';
-
-    function changeLanguage(id,defaultLanguage) {
-        var languageSelector = document.getElementById(id);
-
-        var currentValue = languageSelector.value;
-
-        languageSelector.onchange = function() {
-
-            if(languageSelector.value != currentValue) {
-                window.location = (languageSelector.value == defaultLanguage) ? 'index.html' : 'index-'+languageSelector.value+'.html';
-            }
-
-            console.log(languageSelector.value);
-        }
-    }
-
-    changeLanguage(languageSelectorId,defaultLanguage);
+        scrollTopButton     = document.querySelector('a.navigate-top');
 
     function stickyScroll(e) {
 
@@ -135,19 +116,26 @@
                 .removeClass(activeClass)
                 .filter("[href=#"+id+"]").addClass(activeClass);
         }
-        // hack to hide language selecttor dropdown
-        document.getElementById('language-selector-checkbox').checked = false;
     });
 
     /* Trigger everything: */
     if ( screen.width > stickyBreakpoint ) {
         window.addEventListener('scroll', stickyScroll, false);
     }
+    //  dropdown menu in mobile devices
 
-    $('.top-navigation__mobile-nav__label, .top-navigation__menu__item').click(function () {
+    $('.language__item').click(function () {
+        $('.language__dropdown-menu').slideToggle();
+    });
+
+    if ( screen.width < 992 ) {
+        $('.top-navigation__menu').children().addClass('top-navigation__menu__item--mobile');
+    }
+
+    $('.top-navigation__mobile-nav__label, .top-navigation__menu__item--mobile').click(function () {
             $('.top-navigation__menu').slideToggle();
         }
     );
 
-
+// .top-navigation__mobile-nav__input:checked~.top-navigation__menu.top-navigation__menu__item
 })(jQuery);
