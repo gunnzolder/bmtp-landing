@@ -181,6 +181,17 @@ $block-name: "top-navigation";
 
           }
         }
+        .language {
+          &__item {
+            color: rgba(0,0,0,.8);
+          }
+          &__arrow {
+             path {
+              fill: rgba(0,0,0,.8);
+              @extend .language__item;
+            }
+          }
+        }
       }
     }
   }
