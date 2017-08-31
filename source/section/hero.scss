@@ -16,7 +16,6 @@ $block-name: "bmtp-hero";
     justify-content: space-between;
   }
   &__artwork {
-    max-width: 70%;
     margin: 0 auto;
     &__img:not(amp-img) {
       display: block;
