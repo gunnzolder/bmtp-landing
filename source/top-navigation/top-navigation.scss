@@ -73,9 +73,6 @@ $block-name: "top-navigation";
         background-color: white;
       }
     }
-    &__dropdown {
-      display: none;
-    }
 
     &__select {
       color: $key-color;
@@ -99,6 +96,56 @@ $block-name: "top-navigation";
       }
     }
 
+    .language {
+      position: relative;
+      height: 100px;
+      &__title {
+        display: none;
+      }
+      &__item {
+        color: #fff;
+        line-height: 2;
+        background-color: transparent;
+        opacity: .6;
+        cursor: pointer;
+        &:hover {
+          opacity: 1;
+        }
+        &--active {
+          display: inline-block;
+        }
+      }
+      &__arrow {
+        display: inline-block;
+        position: relative;
+        top: 4px;
+        width: 20px;
+        height: 20px;
+        transform: rotate(-90deg);
+        path {
+          fill: #fff;
+          @extend .language__item;
+        }
+      }
+      &__dropdown-menu {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        border-radius: 4px;
+        padding: 0.8rem 1rem;
+        .language__item {
+          opacity: 1;
+        }
+      }
+      &__link {
+        display: block;
+        color: rgba(0,0,0,.8);
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+      }
+    }
   }
 
   &--sticky {
@@ -224,6 +271,39 @@ $block-name: "top-navigation";
   }
 }
 
+
+@media (max-width: breakpoint-min(md)) {
+  .top-navigation {
+    &__menu {
+      .language {
+        height: auto;
+        &__item {
+          display: none;
+          color: rgba(0,0,0,.8);
+          &--active {
+            display: none;
+          }
+        }
+        &__title {
+          display: block;
+          width: 100%;
+          font-size: 14px;
+          color: #ccc;
+          padding: 0 1rem;
+          border-top: 1px solid #ccc;
+          display: block;
+        }
+        &__dropdown-menu {
+          display: block;
+          position: static;
+          .language__item {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
 
 @media (min-width: breakpoint-min(sm)) {
   .#{$block-name} {
