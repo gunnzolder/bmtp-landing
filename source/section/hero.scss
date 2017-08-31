@@ -20,6 +20,7 @@ $block-name: "bmtp-hero";
     &__img:not(amp-img) {
       display: block;
       max-width: 100%;
+      margin: 0 auto;
     }
   }
 
