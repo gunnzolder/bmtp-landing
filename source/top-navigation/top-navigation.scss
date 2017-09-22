@@ -29,7 +29,7 @@ $block-name: "top-navigation";
 
   &__logo {
     float: left;
-    width: 200px;
+    width: 130px;
     height: 60px;
     margin: 0;
     background-image: url(resources/logo-white.svg);
@@ -52,6 +52,7 @@ $block-name: "top-navigation";
     @include make-col(12);
     background-color: $color-white;
     &__item {
+      margin-right: 10px;
       &__subtitle {
         width: 100%;
         font-size: 14px;
@@ -148,6 +149,27 @@ $block-name: "top-navigation";
     }
   }
 
+  &__login {
+    width: 125px;
+    text-align: center;
+    padding: 12px;
+    height: 36px;
+    display: inline-block;
+
+    &__link {
+      color: #fff;
+      background-color: #f5a623;
+      padding: 0;
+      border-radius: 25px;
+      line-height: 36px;
+      text-decoration: none;
+      display: block;
+      &:hover {
+        background: #db8c0a;
+      }
+    }
+  }
+
   &--sticky {
     position: fixed;
     height: $height-sticky;
@@ -196,9 +218,16 @@ $block-name: "top-navigation";
     }
   }
 
+  &--addBg {
+    background: #fff;
+    .top-navigation__logo {
+      background-image: url(resources/logo-color.svg);
+    }
+  }
+
   &__mobile-nav {
     &__label {
-      margin: 1.1rem 1rem 1.1rem auto;
+      margin: 1.1rem auto;
       width: 1.5rem;
       height: 1.5rem;
       //position: fixed;
@@ -282,6 +311,9 @@ $block-name: "top-navigation";
   }
 }
 
+.no-scroll {
+  overflow: hidden;
+}
 
 @media (max-width: breakpoint-min(md)) {
   .top-navigation {
@@ -451,5 +483,22 @@ $block-name: "top-navigation";
       width: breakpoint-min(xl) - 4em;
     }
 
+  }
+}
+
+@media (max-width: breakpoint-min(lg)) {
+  .#{$block-name} {
+    &__logo {
+      order: 0;
+    }
+    .mobile-nav__label{
+      order: 1;
+    }
+    &__login {
+      order: 2;
+    }
+    &__menu {
+      order: 3;
+    }
   }
 }

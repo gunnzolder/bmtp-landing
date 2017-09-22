@@ -134,6 +134,10 @@
 
     $('.top-navigation__mobile-nav__label, .top-navigation__menu__item--mobile').click(function () {
             $('.top-navigation__menu').slideToggle();
+            $('body').toggleClass('no-scroll');
+            if ($('.top-navigation').hasClass(stickyClass) == false) {
+                $('.top-navigation').toggleClass('top-navigation--addBg');
+            }
         }
     );
 
